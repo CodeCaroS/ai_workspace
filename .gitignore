@@ -1,7 +1,13 @@
 .idea/
 .codex/
 .agents/
+!.agents/
+!.agents/skills/
+!.agents/skills/skill-optimizer/
+!.agents/skills/skill-optimizer/**
 .DS_Store
 Thumbs.db
+__pycache__/
+*.pyc
 *.orig
 *.tmp
