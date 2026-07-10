@@ -1,6 +1,10 @@
 ---
 name: visual-flow-storyboard
 description: Reconstruct complete user journeys from actual code and turn them into visual storyboards. Use when analyzing multi-step flows, hidden branches, roles, feature flags, failure paths, or planning a better target flow from the codebase.
+version: 1.0.0
+author: Caro
+license: Apache-2.0
+
 ---
 
 # Visual Flow Storyboard

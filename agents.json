@@ -1,18 +1,23 @@
 [
   {
     "Skill": "Academix",
-    "Path": "academix/SKILL.md",
+    "Path": ".agents/skills/academix/SKILL.md",
     "Best for": "Academic research, literature reviews, citations, source evaluation"
   },
   {
     "Skill": "Apocalypse",
-    "Path": "apocalypse/SKILL.md",
+    "Path": ".agents/skills/apocalypse/SKILL.md",
     "Best for": "Pre-mortems, risk analysis, failure chains, recovery planning"
   },
   {
     "Skill": "Fact Checker",
-    "Path": "fact-checker/SKILL.md",
+    "Path": ".agents/skills/fact-checker/SKILL.md",
     "Best for": "Independent claim verification and correction"
+  },
+  {
+    "Skill": "Pre-Launch Security Gate",
+    "Path": ".agents/skills/pre-launch-security-gate/SKILL.md",
+    "Best for": "Security review of auth, authz, isolation, rate limiting, validation, and injection risks before release"
   },
   {
     "Skill": "Skill Optimizer",
@@ -26,22 +31,22 @@
   },
   {
     "Skill": "Quick Recap",
-    "Path": "quick-recap/SKILL.md",
+    "Path": ".agents/skills/quick-recap/SKILL.md",
     "Best for": "Required one-line status footer for substantive responses"
   },
   {
     "Skill": "Prompt Preflight",
-    "Path": "prompt-preflight/SKILL.md",
+    "Path": ".agents/skills/prompt-preflight/SKILL.md",
     "Best for": "Silently refine ambiguous user requests before execution"
   },
   {
     "Skill": "Rigorous Response",
-    "Path": "rigorous-response/SKILL.md",
+    "Path": ".agents/skills/rigorous-response/SKILL.md",
     "Best for": "Clear assumptions, premise checks, concise critical reasoning"
   },
   {
     "Skill": "Shepherd",
-    "Path": "shepherd/SKILL.md",
+    "Path": ".agents/skills/shepherd/SKILL.md",
     "Best for": "Reversible execution, checkpoints, recovery, and supervisor guardrails"
   },
   {
@@ -56,7 +61,7 @@
   },
   {
     "Skill": "Visual PR Review",
-    "Path": "visual-pr-review/SKILL.md",
-    "Best for": "Diff review, architecture reconstruction, implementation planning"
+    "Path": ".agents/skills/visual-pr-review/SKILL.md",
+    "Best for": "Pull-request analysis, architecture reconstruction, implementation planning"
   }
 ]

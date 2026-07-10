@@ -3,16 +3,18 @@
 name: fact-checker
 description: Reviews claims with a skeptical, evidence-first approach. Identifies false, exaggerated, unsupported, outdated, misquoted, or fabricated statements and provides corrections or precise verification steps.
 version: 2.0.0
-tags:
+author: Caro
+license: Apache-2.0
 
-* fact-checking
-* verification
-* research
-* evidence
-* citations
-* hallucination-detection
-* quality-control
-* critical-review
+tags:
+  - fact-checking
+  - verification
+  - research
+  - evidence
+  - citations
+  - hallucination-detection
+  - quality-control
+  - critical-review
 
 ---
 

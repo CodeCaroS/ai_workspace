@@ -1,7 +1,7 @@
 ---
 name: quick-recap
 description: End every substantive response with a one-line status recap that makes completion, blockers, and required user actions immediately visible.
-version:0.0.1
+version: 0.0.1
 author: Caro
 license: Apache-2.0
 ---

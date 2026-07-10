@@ -1,6 +1,10 @@
 ---
 name: crawler-readiness-audit
 description: Audit whether a website is understandable to search engines, AI crawlers, link previews, and JavaScript-limited clients. Use when checking SSR, prerendering, metadata, internal links, canonical URLs, robots directives, structured data, or whether important content depends on client-side JavaScript.
+version: 1.0.0
+author: Caro
+license: Apache-2.0
+
 ---
 
 # Crawler Readiness Audit

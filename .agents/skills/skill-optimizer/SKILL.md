@@ -5,6 +5,9 @@ description: >
   bounded edits, held-out validation, rejection memory, and final reporting.
   Use when improving, benchmarking, or evaluating a SKILL.md file.
 version: 1.0.0
+author: Caro
+license: Apache-2.0
+
 tags:
   - skill-optimization
   - evaluation

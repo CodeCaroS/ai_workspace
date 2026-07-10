@@ -130,26 +130,39 @@ It must:
 - detect failed or incomplete runs,
 - produce an auditable history.
 
-## 4. Recommended Repository Layout
+## 4. Repository Layout
 
-If you use this harness inside a skill repository, keep the optimizer under
-`.agents/skills/skill-optimizer/` and keep task data and runs alongside the
-repository's own skill directories.
+This repository is the skill-library checkout, not a full optimization
+workspace. It contains the optimizer skill and its reference docs, but it does
+not ship task splits or run artifacts by default.
 
 ```text
 repo-root/
 ├── AGENTS.md
-├── .agents/
-│   └── skills/
-│       └── skill-optimizer/
-│           ├── SKILL.md
-│           ├── references/
-│           │   └── HARNESS.md
-│           └── scripts/
-│               ├── optimize.py
-│               ├── evaluate.py
-│               └── validate.py
-├── skills/
+├── README.md
+├── agents.json
+└── .agents/
+    └── skills/
+        ├── academix/
+        ├── apocalypse/
+        ├── crawler-readiness-audit/
+        ├── fact-checker/
+        ├── pre-launch-security-gate/
+        ├── prompt-preflight/
+        ├── quick-recap/
+        ├── rigorous-response/
+        ├── shepherd/
+        ├── skill-optimizer/
+        ├── ux-logic-loop/
+        ├── visual-flow-storyboard/
+        └── visual-pr-review/
+```
+
+When you run this harness in a target skill repository, create the experiment
+workspace there:
+
+```text
+repo-root/
 ├── evals/
 │   ├── train/
 │   ├── validation/

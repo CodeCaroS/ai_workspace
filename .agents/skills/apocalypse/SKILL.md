@@ -5,6 +5,10 @@ description: >
   Apocalypse assumes that a plan, product, system, or project has already
   failed catastrophically, reconstructs the most likely causes, and develops
   concrete prevention, detection, containment, and recovery measures.
+version: 1.0.0
+author: Caro
+license: Apache-2.0
+
 tags:
   - risk-analysis
   - pre-mortem

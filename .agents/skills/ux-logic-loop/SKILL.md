@@ -1,6 +1,10 @@
 ---
 name: ux-logic-loop
 description: Systematically inventory features from code, derive testable user stories, persist them in a structured matrix, and run a continuous test-fix-retest loop until UX, logic, and integration issues are resolved or blocked. Use when you need an autonomous audit of user-facing behavior across roles, states, permissions, and edge cases.
+version: 1.0.0
+author: Caro
+license: Apache-2.0
+
 ---
 
 # UX & Logic Loop
@@ -41,13 +45,13 @@ Then document the discovered framework, runtime, start commands, test commands, 
 
 Keep the loop state in machine-readable files. Prefer these names unless the repo already has a stricter convention:
 
-- `.agent/ux-logic-loop/session-state.md`
-- `.agent/ux-logic-loop/feature-inventory.md`
-- `.agent/ux-logic-loop/user-stories.csv`
-- `.agent/ux-logic-loop/findings.md`
-- `.agent/ux-logic-loop/test-runs.md`
-- `.agent/ux-logic-loop/coverage.md`
-- `.agent/ux-logic-loop/bugs/`
+- `.agents/ux-logic-loop/session-state.md`
+- `.agents/ux-logic-loop/feature-inventory.md`
+- `.agents/ux-logic-loop/user-stories.csv`
+- `.agents/ux-logic-loop/findings.md`
+- `.agents/ux-logic-loop/test-runs.md`
+- `.agents/ux-logic-loop/coverage.md`
+- `.agents/ux-logic-loop/bugs/`
 
 ## Story matrix minimum fields
 
